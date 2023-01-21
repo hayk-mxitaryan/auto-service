@@ -1,0 +1,25 @@
+{
+    "name": "hayk-mxitaryan/auto-service",
+    "description": "A simple package to simplify laravel programming for those who use service classes to take the logic out of the controller",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hayk Mxitaryan",
+            "email": "hayk.mxitaryan.06@mail.ru",
+            "homepage": "https://github.com/HaykMxitaryan"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HaykMxitaryan\\AutoService\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "HaykMxitaryan\\AutoService\\Providers\\AutoServiceServiceProvider"
+            ]
+        }
+    }
+}
